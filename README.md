@@ -1,51 +1,42 @@
-# React + TypeScript + Vite
+# React Authentication App
+This project implements a Sign Up and Login form using Formik for form handling and validation, Yup for schema validation, TypeScript for type safety, and Tailwind CSS for styling. The forms follow clean coding principles and provide a good user experience (UX).
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features:
+Sign Up Form: Allows users to create an account with name, email, password, and confirm password.
+Login Form: Enables users to log in with email and password.
+Success Messages: Displays a success message when the form is successfully submitted (e.g., "Sign Up Successful" or "Login Successful").
+"Remember Me" Checkbox: Saves the email to local storage for the Login form (optional feature).
+Password Strength Indicator: Shows a password strength indicator on the Sign Up form (optional feature).
+Accessibility: Implements proper ARIA roles and labels for accessibility.
+#Bonus Features:
+"Remember Me" Checkbox: For the Login form, saves the user's email to local storage if the checkbox is checked.
+Password Strength Indicator: Display a dynamic password strength indicator on the Sign Up form to help users create strong passwords.
+Accessibility: Ensures all form fields are properly labeled and accessible, following best practices for users with disabilities.
+## Constraints:
+No third-party UI libraries such as Material-UI or Ant Design are used.
+No AI-generated prompts or tools are utilized in the creation of this application.
+ ## Installation and Running the Project:
+ 1.Clone the repository:
 
-Currently, two official plugins are available:
+** git clone https://github.com/akshay030/React-auth-app.git **
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Navigate to the project directory:
+** cd react-auth-app **
 
-## Expanding the ESLint configuration
+Install dependencies: 
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+** npm install **
 
-- Configure the top-level `parserOptions` property like this:
+Start the development server:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+** npm run dev **
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+The application will be available at http://localhost:3000.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
-# React-auth-app
+ ### Design Choices:
+Formik and Yup: Used for form handling and validation to ensure smooth form submission and validation with easy integration and minimal boilerplate code.
+Tailwind CSS: Used for styling, which allows for a responsive, flexible, and clean layout without relying on third-party UI frameworks.
+TypeScript: Ensures type safety across the project, making it easier to maintain and catch errors during development.
+### Assumptions or Limitations:
+The app currently does not connect to a backend or store user data persistently. User information is saved to local storage on the client-side.
+The login process relies on matching the email and password against the data stored in local storage (simulated authentication).
