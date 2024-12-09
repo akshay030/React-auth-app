@@ -20,16 +20,16 @@ No AI-generated prompts or tools are utilized in the creation of this applicatio
 
 ** git clone https://github.com/akshay030/React-auth-app.git **
 
-Navigate to the project directory:
-** cd react-auth-app **
+2.Navigate to the project directory:
+**cd react-auth-app**
 
-Install dependencies: 
+3.Install dependencies: 
 
-** npm install **
+**npm install**
 
-Start the development server:
+4.Start the development server:
 
-** npm run dev **
+**npm run dev**
 
 The application will be available at http://localhost:3000.
 
