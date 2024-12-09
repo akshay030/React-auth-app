@@ -18,7 +18,7 @@ No AI-generated prompts or tools are utilized in the creation of this applicatio
  ## Installation and Running the Project:
  1.Clone the repository:
 
-** git clone https://github.com/akshay030/React-auth-app.git **
+**https://github.com/akshay030/React-auth-app.git**
 
 2.Navigate to the project directory:
 **cd react-auth-app**
