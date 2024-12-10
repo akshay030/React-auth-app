@@ -2,16 +2,16 @@
 This project implements a Sign Up and Login form using Formik for form handling and validation, Yup for schema validation, TypeScript for type safety, and Tailwind CSS for styling. The forms follow clean coding principles and provide a good user experience (UX).
 
 ## Features:
-Sign Up Form: Allows users to create an account with name, email, password, and confirm password.
-Login Form: Enables users to log in with email and password.
-Success Messages: Displays a success message when the form is successfully submitted (e.g., "Sign Up Successful" or "Login Successful").
-"Remember Me" Checkbox: Saves the email to local storage for the Login form (optional feature).
-Password Strength Indicator: Shows a password strength indicator on the Sign Up form (optional feature).
-Accessibility: Implements proper ARIA roles and labels for accessibility.
+**Sign Up Form**: Allows users to create an account with name, email, password, and confirm password.
+**Login Form**: Enables users to log in with email and password.
+**Success Messages**: Displays a success message when the form is successfully submitted (e.g., "Sign Up Successful" or "Login Successful").
+**"Remember Me" Checkbox**: Saves the email to local storage for the Login form (optional feature).
+**Password Strength Indicator**: Shows a password strength indicator on the Sign Up form (optional feature).
+**Accessibility**: Implements proper ARIA roles and labels for accessibility.
 #Bonus Features:
-"Remember Me" Checkbox: For the Login form, saves the user's email to local storage if the checkbox is checked.
-Password Strength Indicator: Display a dynamic password strength indicator on the Sign Up form to help users create strong passwords.
-Accessibility: Ensures all form fields are properly labeled and accessible, following best practices for users with disabilities.
+**"Remember Me" Checkbox**: For the Login form, saves the user's email to local storage if the checkbox is checked.
+**Password Strength Indicator**: Display a dynamic password strength indicator on the Sign Up form to help users create strong passwords.
+**Accessibility**: Ensures all form fields are properly labeled and accessible, following best practices for users with disabilities.
 ## Constraints:
 No third-party UI libraries such as Material-UI or Ant Design are used.
 No AI-generated prompts or tools are utilized in the creation of this application.
